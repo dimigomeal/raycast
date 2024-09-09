@@ -53,12 +53,16 @@
         },
         {
           "value": "en",
-          "title": "English (WIP)"
+          "title": "English (Pro required)"
+        },
+        {
+          "value": "jp",
+          "title": "Japanese (Pro required)"
         }
       ],
       "default": "ko",
       "required": true,
-      "description": "Select the language you want to use. Meal information will be displayed in the selected language."
+      "description": "Select the language you want to use. Meal information will be displayed in the selected language. Translate provided by Raycast AI."
     }
   ],
   "dependencies": {
