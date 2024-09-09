@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "dimigomeal-raycast",
-  "title": "디미고급식",
+  "title": "디미고 급식",
   "description": "디미고의 급식 정보를 Raycasy에서!",
   "version": "1.0.0",
   "icon": "extension-icon.png",
