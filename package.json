@@ -1,48 +1,46 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "dimigomeal-raycast",
-  "title": "디미고 급식",
-  "description": "디미고의 급식 정보를 Raycasy에서!",
+  "title": "Check Dimigo Meal",
+  "description": "Check Dimigo's meal information on Raycast!",
   "version": "1.0.0",
   "icon": "extension-icon.png",
   "author": "tilto_0822",
   "owner": "dimigomeal",
   "categories": [
-    "Data",
     "Web"
   ],
   "license": "MIT",
   "commands": [
     {
       "name": "today-breakfast-menu",
-      "title": "오늘 아침 메뉴",
-      "subtitle": "Today Breakfast Menu",
-      "description": "오늘 디미고의 아침 메뉴는?",
+      "title": "Check Today Breakfast Menu",
+      "subtitle": "Dimigo Meal",
+      "description": "Check today's breakfast menu at Dimigo.",
       "mode": "view"
     },
     {
       "name": "today-lunch-menu",
-      "title": "오늘 점심 메뉴",
-      "subtitle": "Today Lunch Menu",
-      "description": "오늘 디미고의 점심 메뉴는?",
+      "title": "Check Today Lunch Menu",
+      "subtitle": "Dimigo Meal",
+      "description": "Check today's lunch menu at Dimigo.",
       "mode": "view"
     },
     {
       "name": "today-dinner-menu",
-      "title": "오늘 저녁 메뉴",
-      "subtitle": "Today Dinner Menu",
-      "description": "오늘 디미고의 저녁 메뉴는?",
+      "title": "Check Today Dinner Menu",
+      "subtitle": "Dimigo Meal",
+      "description": "Check today's dinner menu at Dimigo.",
       "mode": "view"
-    }
-  ,
+    },
     {
       "name": "next-meal-menu",
-      "title": "다음 급식 메뉴",
-      "subtitle": "next-meal-menu",
-      "description": "디미고의 다음 급식 메뉴는?",
+      "title": "Check Next Meal Menu",
+      "subtitle": "Dimigo Meal",
+      "description": "Check the next meal menu at Dimigo. Optimized for Dimigo's meal time. (KST)",
       "mode": "view"
     }
-      ],
+  ],
   "dependencies": {
     "@raycast/api": "^1.82.3",
     "@raycast/utils": "^1.17.0"
@@ -51,7 +49,7 @@
     "@raycast/eslint-config": "^1.0.11",
     "@types/node": "22.5.4",
     "@types/react": "18.3.5",
-    "eslint": "^9.10.0",
+    "eslint": "^8.57.0",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
   },

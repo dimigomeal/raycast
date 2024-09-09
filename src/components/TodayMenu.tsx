@@ -16,10 +16,18 @@ export const TodayMenu: React.FC<{
 
   return (
     <>
-      {data && <Detail isLoading={isLoading} markdown={`# ${targetDate} ${type === 'breakfast' ? '아침' : type === 'lunch' ? '점심' : '저녁'}\n` + parseMenuToMarkdown(data[type])} />}
+      {data && (
+        <Detail
+          isLoading={isLoading}
+          markdown={
+            `# ${targetDate} ${type === "breakfast" ? "아침" : type === "lunch" ? "점심" : "저녁"}\n` +
+            parseMenuToMarkdown(data[type])
+          }
+        />
+      )}
       {error && <Detail isLoading={isLoading} markdown={error.message} />}
     </>
   );
-}
+};
 
 export default TodayMenu;
