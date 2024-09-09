@@ -3,7 +3,6 @@
   "name": "dimigomeal-raycast",
   "title": "Check Dimigo Meal",
   "description": "Check Dimigo's meal information on Raycast!",
-  "version": "1.0.0",
   "icon": "extension-icon.png",
   "author": "tilto_0822",
   "owner": "dimigomeal",
