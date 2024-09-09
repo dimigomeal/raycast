@@ -1,7 +1,9 @@
 import TodayMenu from "./components/TodayMenu";
 
 export default function Command() {
-  const targetDate = new Date();
+  // create targetDate with KST
+  const targetDate = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
+  // const targetDate = new Date();
   const totalMinutes = targetDate.getHours() * 60 + targetDate.getMinutes();
 
   // 00:00 ~ 08:00 -> breakfast (0 - 480)

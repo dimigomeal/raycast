@@ -41,6 +41,26 @@
       "mode": "view"
     }
   ],
+  "preferences": [
+    {
+      "name": "language",
+      "title": "Launguage",
+      "type": "dropdown",
+      "data": [
+        {
+          "value": "ko",
+          "title": "Korean"
+        },
+        {
+          "value": "en",
+          "title": "English (WIP)"
+        }
+      ],
+      "default": "ko",
+      "required": true,
+      "description": "Select the language you want to use. Meal information will be displayed in the selected language."
+    }
+  ],
   "dependencies": {
     "@raycast/api": "^1.82.3",
     "@raycast/utils": "^1.17.0"
