@@ -19,7 +19,9 @@ export const TodayMenu: React.FC<{
     breakfast: string;
     lunch: string;
     dinner: string;
-  }>(`https://api.xn--299a1v27nvthhjj.com/meal/${targetDate}`);
+  }>(`https://api.xn--299a1v27nvthhjj.com/meal/${targetDate}`, {
+    keepPreviousData: false,
+  });
 
   return (
     <>
